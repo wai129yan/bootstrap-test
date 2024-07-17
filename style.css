@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: rgb(50, 44, 32) !important;
+    box-sizing: border-box;
 }
 
 .row{
@@ -47,4 +48,15 @@
     cursor: pointer;
     font-size: 16px;
     border-radius: 15px;
+}
+
+/* carousel */
+.carousel-caption{
+    padding-bottom: 16.25rem;
+    /* color: whitesmoke !important; */
+    margin-top: 5px;
+}
+.carousel-caption.d-none.d-md-block:hover h5 ,.carousel-caption.d-none.d-md-block:hover p {
+    font-weight: bold;
+    color: antiquewhite;
 }
