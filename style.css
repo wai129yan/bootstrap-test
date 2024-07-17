@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(50, 44, 32) !important;
+}
+
+.row{
+    background: rgb(237, 247, 247) !important;
+}
+
+/* home */
+
+.home-info{
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f6cdc2;
+    text-align: center;
+}
+
+.text-overlay h3,
+.text-overlay p,
+.text-overlay button {
+    margin: 10px 0;
+}
+
+.text-overlay button {
+    background-color: #baebe4aa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+}

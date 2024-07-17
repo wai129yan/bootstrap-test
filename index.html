@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <head>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">shutterstock</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#login">Login</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#register">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="modal" id="login" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-center w-100">Login</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="mb-3 text-center">
+                                <input type="button" value="login" class="btn btn-danger text-white w-10">
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="register" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-center w-100">Register</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="">Name</label>
+                                <input type="name" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" placeholder="password">
+                            </div>
+                            <div class="mb-3 text-center">
+                                <input type="submit" value="Register" class="btn btn-danger text-white ">
+                            </div>
+                        </form>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </head>
+    <!-- finish head -->
+
+    <!-- home -->
+
+    <section class="home-info">
+        <div class="image-container">
+            <img src="./42.jpg" alt="">
+            <div class="text-overlay">
+                <h3>Landing pages for any occasion</h3>
+                <p>Incline is set of landing and support pages aimed at helping companies promote new products and business
+                </p>
+                <button>PURCHASE NOW</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- home -->
+
+    <!-- features -->
+    <main>
+        <div class="row mr-5 g-5">
+            <h1 class="text-center" >New Modern Feature</h1>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/301/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 4500</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/302/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 2500</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/303/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 2500</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/305/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 5200</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/308/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 1500</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 20rem;">
+                    <img src="//picsum.photos/307/300" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Next Feature</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">$ 2500</li>
+                        <li class="list-group-item">Made In Japan</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </main>
+    <!-- featute finish -->
+    
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
